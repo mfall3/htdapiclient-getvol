@@ -23,9 +23,9 @@ At the Unix command line:
 
 then:
 
-  enter http://yourhost/path_to_client/getvol.pl?id=uc2.ark:/13960/t7fr00z97&filename=ark+\=13960\=t7fr00z97.zip into a web browser or
+  enter http://yourhost/path_to_client/getvol.pl?id=uc2.ark:/13960/t7fr00z97&filename=ark%2B%3D13960%3Dt7fr00z97.zip into a web browser or
 
-  % curl 'http://yourhost/path_to_client/getvol.pl?id=uc2.ark:/13960/t7fr00z97&filename=ark+\=13960\=t7fr00z97.zip' > ark+\=13960\=t7fr00z97.zip
+  % curl 'http://yourhost/path_to_client/getvol.pl?id=uc2.ark:/13960/t7fr00z97&filename=ark%2B%3D13960%3Dt7fr00z97.zip' > ark+\=13960\=t7fr00z97.zip
 
 If the resulting file is not a valid zip file, then rename it to error.html and view the file in a browser or text editor.
 
