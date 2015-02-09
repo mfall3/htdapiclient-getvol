@@ -77,4 +77,4 @@ else {
     print "<p><b>Error: " . $response->content . "</b><br/>";
 }
 
-exit $success;
+exit ($success ? 0 : 1);
